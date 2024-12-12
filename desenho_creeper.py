@@ -126,7 +126,7 @@ def listra_branca_cartola(pos_x,pos_y,cor,zoom:int=1):
     turtle.end_fill()
 
 #aqui, chamaremos as funções criadas definindo seus respectivos argumentos, zoom e positions.
-
+input("Pressione ENTER para iniciar...")
 cabeca_creeper(-75,-20,"green",zoom=10)
 olho_esq(-45,60,"black",zoom=10)
 olho_dir(10,60,"black",zoom=10)
